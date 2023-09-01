@@ -1,11 +1,15 @@
+*{
+   margin: 0 ;
+   padding: 0;
+    font-family: Helvetica;
+}
+
 @font-face {
     font-family: "Beau Rivage";
     src: url(../resources/fonts/BeauRivage-Regular.ttf);
 }
 
-*{
-    font-family: Helvetica;
-}
+
 .nav {
     text-transform: uppercase;
     
@@ -13,6 +17,10 @@
 
 .nav ul {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #ed6060;
 }
 
 .nav a {
@@ -23,7 +31,7 @@
     width: 125px;
     display: inline-block;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
 .categoria-titulo-centro {
